@@ -1,0 +1,17 @@
+/api/products (GET): Returns a JSON array of all the Raspberry Pi products and accessories.
+
+/api/products/:id (GET): Returns the details of a specific product based on its ID.
+
+/api/checkout (POST): A placeholder endpoint to simulate a checkout process, logging the received cart items and total amount.
+
+To run this Express.js backend:
+
+Save the code: Copy the code above and save it in a file named backend.js (or any other .js name) in a new, empty folder.
+
+Open your terminal/command prompt: Navigate to the folder where you saved backend.js.
+
+Initialize Node.js project: Run npm init -y (this creates a package.json file).
+
+Install dependencies: Run npm install express cors.
+
+Start the server: Run node backend.js.
